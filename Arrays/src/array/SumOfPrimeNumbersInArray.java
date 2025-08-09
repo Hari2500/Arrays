@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Arrays;
+
 public class SumOfPrimeNumbersInArray {
 
 	static boolean isPrime(int num) {
@@ -25,6 +27,7 @@ public class SumOfPrimeNumbersInArray {
 				sum += given[i];
 			}
 		}
+		System.out.println(Arrays.toString(given));
 		System.out.println("Sum of prime numbers is: " + sum);
 	}
 
