@@ -20,8 +20,6 @@ public class ReplacePalindromeWithMinusOne {
 		for (int i = 0; i < given.length; i++) {
 			if(palindromeCheck(given[i]))
 				given[i] = -1;
-//			else
-//				given[i]--;
 		}
 		System.out.print("Output [");
 		for(int i = 0; i<given.length;i++) {
